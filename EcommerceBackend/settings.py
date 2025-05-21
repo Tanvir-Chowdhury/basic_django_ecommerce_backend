@@ -145,3 +145,7 @@ REST_FRAMEWORK = {
         'rest_framework.filters.SearchFilter',
     ),    
 }
+
+
+ACCOUNT_SESSION_REMEMBER = True
+AUTH_USER_MODEL = 'user_api.SiteUser'
